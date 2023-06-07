@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 5%;
+}
+.login_heading{
+  display: inline-block;
+  background: rgba(0, 0, 244, 0.709);
+  border-radius: 1%;
+  padding: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  overflow-x: hidden;
+  background: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar Css  */
+
+.navbar-toggler-icon{
+  /* color: white !important; */
+  border-radius: 17px;
 }
+
+.navbar{
+  border-radius: 20px;
+}
+
+.logo1{
+  width: 150px;
+}
+.bg-dark{
+  background: black !important;
+  box-shadow: rgba(219, 15, 25, 0.5) 0px 0px 20px;
+}
+
+.nav-items{
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 400;
+}
+
+.nav-items .nav-item a{
+  color: white !important;
+  font-size: 1.1rem;
+}
+
+
+/* Main Page Css  */
+
+.bg-img{
+  margin: -14rem 0 0 -7rem;
+  width: 105rem;
+}
+
+ul li{
+  margin-right: 15px;
+}
+
+.content-container{
+  margin: -10rem 0 0 0;
+}
+
+.heading-left-side h1{
+
+  font-family: 'Ms Madi', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 130%;
+  letter-spacing: 7px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(2, 3, 5) 0px 0px 40px;
+  margin:  -59rem 5rem 0 5rem;
+
+}
+
+.heading-left-side p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+
+.side-image-right{
+  margin:  -59rem 5rem 0 5rem;
+
+}
+
+.right-img1{
+  margin: 0 -14rem 0 0rem;
+}
+.right-img2{
+  margin: -8rem 0 0 0rem;
+}
+
+.source-icon{
+  margin-left: 5rem;
+}
+
+.input-form input{
+
+  width: 40rem;
+  height: 3rem;
+  border-radius: 15px;
+  margin: 0 0 4rem 0;
+}
+
+li button{
+  margin: 0 0 0 40%;
+}
+
